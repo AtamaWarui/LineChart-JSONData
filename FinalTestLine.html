@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link href="css/default.css" rel="stylesheet">
+</head>
+<body>
+	<div class="chart-container">
+                <h1>Hourly device detection rate</h1>
+		<canvas id="line-chartcanvas"></canvas>
+	</div>
+
+	<!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+
+
+<script src="js/custom.js"></script>
+
+
+
+   <!-- <script>
+     $(document).ready(function() {
+
+	//get canvas
+	var ctx = $("#line-chartcanvas");
+
+	var data = {
+		labels : ["match1", "match2", "match3", "match4", "match5"],
+		datasets : [
+			{
+				label : "TeamA score",
+				data : [10, 50, 25, 70, 40],
+				backgroundColor : "blue",
+				borderColor : "lightblue",
+				fill : false,
+				lineTension : 0,
+				pointRadius : 5
+			},
+			
+		]
+	};
+
+	var options = {
+		title : {
+			display : true,
+			position : "top",
+			text : "Line Graph",
+			fontSize : 18,
+			fontColor : "#111"
+		},
+		legend : {
+			display : true,
+			position : "bottom"
+		}
+	};
+
+	var chart = new Chart( ctx, {
+		type : "line",
+		data : data,
+		options : options
+	} );
+
+});
+
+    </script> -->
+    
+</body>
+</html>
